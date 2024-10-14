@@ -8,7 +8,7 @@ export const workExperiences: WorkExperience[] = [
 		time: "full-time",
 		period: [new Date(2020, 6), null],
 		details: [
-			<b>"Soporte técnico a usuarios:"</b>"Proporcioné soporte técnico eficiente a estudiantes, profesores y personal administrativo en el uso de software, hardware y sistemas de la universidad, resolviendo problemas técnicos de manera rápida y eficaz.",
+			"Soporte técnico a usuarios: Proporcioné soporte técnico eficiente a estudiantes, profesores y personal administrativo en el uso de software, hardware y sistemas de la universidad, resolviendo problemas técnicos de manera rápida y eficaz.",
 			"Formé a los estudiantes en tecnologías base que son clave para el desarrollo web y móvil, incluyendo lenguajes como HTML5, CSS3, JavaScript.",
 			"Facilitaba proyectos prácticos que involucraban el ciclo completo de desarrollo de aplicaciones web, desde la planificación y diseño hasta la implementación y despliegue en plataformas reales.",
 			"Enseñé y supervisé el uso de herramientas colaborativas y de control de versiones como Git y GitHub.",

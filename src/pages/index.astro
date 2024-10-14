@@ -76,6 +76,7 @@ const sortedPosts = posts.sort((a, b) => (a.data.date > b.data.date ? -1 : 1));
 				Con un historial probado de éxito en la resolución de problemas, mi objetivo es impulsar la excelencia en cada proyecto que emprendo.
 			</p>
 		</section>
+		<BlogSection client:visible posts={sortedPosts} />
 		<WorkExperienceSection client:visible workExperiences={workExperiences} />
 		<ProjectSection
 			title="Personal Projects"
@@ -88,6 +89,5 @@ const sortedPosts = posts.sort((a, b) => (a.data.date > b.data.date ? -1 : 1));
 			description="These are some open source projects that I actively help maintain. Most of them are from Teknologi Umum, a community that I'm part of."
 			projects={sortedOpenSourceProjects}
 		/>
-		<BlogSection client:visible posts={sortedPosts} />
 	</main>
 </MainLayout>
