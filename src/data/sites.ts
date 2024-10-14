@@ -5,7 +5,7 @@ export default {
 	twitter: "https://x.com/EloyChavezDev",
 	linkedin: "https://www.linkedin.com/in/eloychavezdev/",
 	cv: "/assets/cv_dicha.pdf",
-	email: "laneloychavez@gmail.com",
+	email: "mailto:laneloychavez@gmail.com",
 	description: "EloyChavezDev personal website",
 	keywords: ["personal", "website", "blog", "article"],
 } as const;
