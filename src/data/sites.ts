@@ -1,11 +1,11 @@
 export default {
-	siteName: "Elianiva",
-	siteUrl: "https://elianiva.my.id",
-	github: "https://github.com/elianiva",
-	twitter: "https://twitter.com/@elianiva_",
-	linkedin: "https://www.linkedin.com/in/dichaa",
+	siteName: "EloyChavezDev",
+	siteUrl: "https://eloychavez.dev",
+	github: "https://github.com/EloyChavezDev",
+	twitter: "https://x.com/EloyChavezDev",
+	linkedin: "https://www.linkedin.com/in/eloychavezdev/",
 	cv: "/assets/cv_dicha.pdf",
-	email: "contact@elianiva.my.id",
-	description: "Elianiva's personal website",
+	email: "laneloychavez@gmail.com",
+	description: "EloyChavezDev personal website",
 	keywords: ["personal", "website", "blog", "article"],
 } as const;
