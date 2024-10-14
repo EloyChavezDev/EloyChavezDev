@@ -2,11 +2,11 @@ import type { WorkExperience } from "~/models/work-experience.ts";
 
 export const workExperiences: WorkExperience[] = [
 	{
-		company: "PT Global Scholarship Services Indonesia (IPBTraining)",
-		position: "Fullstack Web Developer",
-		type: "remote",
+		company: "Universidad Continente Americano",
+		position: "Docente en Desarrollo de Aplicaciones Sobre Internet",
+		type: "Presencial",
 		time: "full-time",
-		period: [new Date(2024, 3), null],
+		period: [new Date(2024, 1), new Date(2024, 4)],
 		details: [
 			"Initiated the use of Github Action for CI/CD pipeline",
 			"Used Javascript and Typescript to build and maintain learning platform",
@@ -14,12 +14,11 @@ export const workExperiences: WorkExperience[] = [
 			"Developed a multi-tenant CMS similar to SkillAcademy by RuangGuru using Laravel",
 		],
 		technologies: [
-			"typescript",
-			"nodejs",
-			"nextjs",
-			"laravel",
-			"mysql",
-			"docker"
+			"Github",
+			"Netlify",
+			"Astro",
+			"Javascript",
+			"Wordpress",
 		]
 	},
 	{
@@ -27,7 +26,7 @@ export const workExperiences: WorkExperience[] = [
 		position: "Fullstack Web Developer",
 		type: "remote",
 		time: "freelance",
-		period: [new Date(2023, 0), new Date(2023, 3)],
+		period: [new Date(2023, 0), null],
 		details: [
 			"Building Content Management System for a South Korean mobile app that accommodates car, camp car, and camping site rent in one app",
 			"Designed the database schema along with other developer",
